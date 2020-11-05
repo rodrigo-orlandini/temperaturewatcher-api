@@ -19,7 +19,7 @@ cors = CORS(application, resource={r"/*": {"origins": "*"} })
 @application.route("/graphdata", methods=['GET'])
 def getGraphData():
   databaseConnection = Database(HOST, USER, PASSWORD, DATABASE)     #Configurando conexão com o Banco de Dados
-  responseDatabase = databaseConnection.selectTemperatureHumidityData(limit=30)    #Coletando resposta da query executada no DB
+  responseDatabase = databaseConnection.selectTemperatureHumidityData(limit=10)    #Coletando resposta da query executada no DB
   fields = ["id", "temperature", "humidity", "datetime"]          #Campos para o dicionário de resposta
 
   #Utilizando o padrão de Dicionário para as respostas do DB
