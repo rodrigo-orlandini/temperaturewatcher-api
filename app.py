@@ -5,10 +5,10 @@ from Database import Database         #Importando classe para trabalhar com o DB
 from Tools import Tools               #Importando classe utilitária
 
 #Constantes para configurar a conexão com o banco de dados
-HOST = 'db4free.net'
-USER = 'rodrigotest'
-PASSWORD = 'knameenter22'
-DATABASE = 'tempwatchertest'
+HOST = os.getenv("HOST")
+USER =  os.getenv("USER")
+PASSWORD = os.getenv("PASSWORD")
+DATABASE = os.getenv("DATABASE")
 
 #Inicializando as configurações da aplicação
 application = Flask(__name__)
