@@ -16,7 +16,7 @@ As tecnologias usadas para essa aplicação foram:
 * **Heroku**
 * **MySQL**
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center; align-items: center;">
     <img src="https://seeklogo.com/images/F/flask-logo-44C507ABB7-seeklogo.com.png" width="8%" style="margin-right: 40px;">
     <img src="https://image.flaticon.com/icons/png/512/873/873120.png" width="10%" style="margin-right: 40px;">
     <img src="https://cdn.iconscout.com/icon/free/png-512/mysql-19-1174939.png" width="12%">
